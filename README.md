@@ -10,6 +10,4 @@
 
 [En] Templates for C++ code , totally free. Please star and indicate our link if you want to use our templates.
 
-[Fr] Modèle de code C++ , entièrement gratuit. Si vous souhaitez utiliser notre modèle , veuillez indiquer notre lien dans un astérisque.
-
 [Ch] C++代码模板 , 完全免费. 如果您想使用我们的模板 , 请给这个仓库Star并标明出处.
