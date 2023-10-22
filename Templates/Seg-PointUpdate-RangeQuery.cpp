@@ -1,3 +1,4 @@
+//线段树 单点修改 区间查询
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
