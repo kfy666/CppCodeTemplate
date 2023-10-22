@@ -1,3 +1,4 @@
+//Dijkstra求最短路,左偏树维护
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
