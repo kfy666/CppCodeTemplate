@@ -8,6 +8,8 @@
 ![watchers](https://img.shields.io/github/watchers/kfy666/CppCodeTemplate.svg?style=social&label=Watch)
 ![stars](https://img.shields.io/github/stars/kfy666/CppCodeTemplate.svg?style=social&label=Stars)
 
-[En] Templates for C++ code , totally free. Please star and indicate our link if you want to use our templates.
+[En] Templates for C++ code , totally free. Please ⭐Star⭐ and indicate our link if you want to use our templates.
 
-[Ch] C++代码模板 , 完全免费. 如果您想使用我们的模板 , 请给这个仓库Star并标明出处.
+[Ch] C++代码模板 , 完全免费. 如果您想使用我们的模板 , 请给这个仓库⭐Star⭐并标明出处.
+
+模板存储于<code>Templates</code>文件夹内.
