@@ -5,7 +5,7 @@
 ![Cpp](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 [![followers](https://img.shields.io/github/followers/kfy666.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/kfy666)
 [![license](https://img.shields.io/github/license/kfy666/CppCodeTemplate.svg)](https://github.com/kfy666/CppCodeTemplate)
-![watch](https://img.shields.io/github/watchers/kfy666/CppCodeTemplate.svg?style=social&label=Watch)
+![watchers](https://img.shields.io/github/watchers/kfy666/CppCodeTemplate.svg?style=social&label=Watch)
 ![stars](https://img.shields.io/github/stars/kfy666/CppCodeTemplate.svg?style=social&label=Stars)
 
 Templates for C++ code , totally free.
