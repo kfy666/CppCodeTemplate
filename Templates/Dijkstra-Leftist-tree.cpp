@@ -45,7 +45,7 @@ void dijkstra(ll s)
 		if(rt == 0) break;
 		ll u = ver[rt];
 		book[u] = 1;
-		for(ll i = head[u];~i;i=e[i].ne)
+		for(ll i = head[u];~i;i = e[i].ne)
 		{
 			ll v = e[i].to;
 			if(book[v]) continue;
