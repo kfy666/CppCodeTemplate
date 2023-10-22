@@ -3,7 +3,7 @@
 using namespace std;
 typedef long long ll;
 const ll N=1e5+5;
-ll n, a[N], d[N]；
+ll n, a[N], d[N];
 
 void build(ll l, ll r, ll p)
 {
