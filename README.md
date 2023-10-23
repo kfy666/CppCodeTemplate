@@ -44,3 +44,9 @@ int main()
 |线段树-单点修改-区间查询 | <code>Seg-PointUpdate-RangeQuery.cpp</code> |
 |快读| <code>Quick-read.cpp</code> |
 |Dijkstra求最短路-左偏树维护| <code>Dijkstra-Leftist-tree.cpp</code> |
+
+---
+
+## 贡献者
+
+点击[这里](https://github.com/kfy666/graphs/contributors)查看所有贡献者. 如果你在本仓库提交<code>Pull Request</code>并得到通过, 那么你也将成为一名<code>Contributor</code>.
