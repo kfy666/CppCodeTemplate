@@ -13,7 +13,7 @@
 
 ## 概述
 
-[En] Thank you for visiting our repo! Here we have various detailed templates of C++ code for the Olympics of Informatic(OI), totally free. Please ⭐Star⭐ our repo and indicate our link if you want to use our templates.❤️
+[En] Thank you for visiting our repo! Here we have various detailed templates of C++ code for the Olympics of Informatic(OI), totally free. Please ⭐Star⭐ our repo and indicate our link if you'd like to use our templates.❤️
 
 [Ch] 感谢您访问我们的仓库! 这里有丰富详实的专为信息学竞赛(OI)打造的C++代码模板, 完全免费. 如果您想使用我们的模板, 请给这个仓库⭐Star⭐并标明出处.❤️
 
