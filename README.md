@@ -37,6 +37,8 @@ int main()
 
 ## 索引
 
+> 把文件乱放是程序员的基本素养.
+
 模板存储于<code>Templates</code>文件夹内. 如果不想打开文件夹慢慢查找文件, 你也可以在下面这个链接后方加入后面列表内的文件名来访问对应文件.
 ```
 https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/
