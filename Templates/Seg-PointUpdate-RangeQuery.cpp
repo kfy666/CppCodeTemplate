@@ -15,7 +15,7 @@ void build(ll l, ll r, ll p)
 	ll mid = (l + r) >> 1;
 	build(l, mid, p << 1);
 	build(mid + 1, r, p <<1 | 1);
-	d[p] = d[p << 1]+d[p << 1 | 1];
+	d[p] = d[p << 1] + d[p << 1 | 1];
 }
 
 void update(ll p, ll l, ll r, ll pos, ll v)
