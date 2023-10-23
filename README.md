@@ -16,8 +16,6 @@
 
 [Ch] C++代码模板 , 完全免费. 如果您想使用我们的模板 , 请给这个仓库⭐Star⭐并标明出处.
 
-模板存储于<code>Templates</code>文件夹内.
-
 ---
 
 ## 索引
@@ -27,3 +25,5 @@
 | 项目中文名称 | 项目源程序名称 |
 |------|------|
 |线段树-单点修改-区间查询 | <code>Seg-PointUpdate-RangeQuery.cpp</code> |
+|快读| <code>Quick-read</code> |
+|Dijkstra求最短路-左偏树维护| <code>Dijkstra-Leftist-tree</code> |
