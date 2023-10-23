@@ -52,4 +52,4 @@ https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/
 
 ## 贡献者
 
-点击[这里](https://github.com/kfy666/CppCodeTemplates/graphs/contributors)查看所有贡献者. 如果你在本仓库提交<code>Pull Request</code>并得到通过, 那么你也将成为一名<code>Contributor</code>.
+点击[这里](https://github.com/kfy666/CppCodeTemplate/graphs/contributors)查看所有贡献者. 如果你在本仓库提交<code>Pull Request</code>并得到通过, 那么你也将成为一名<code>Contributor</code>.
