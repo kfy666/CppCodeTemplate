@@ -19,6 +19,18 @@
 
 [Ch] 感谢您访问我们的仓库! 这里有丰富详实的专为信息学竞赛(OI)打造的C++代码模板, 完全**免费**. 如果您想使用我们的模板, 请给这个仓库⭐**Star**⭐并**标明出处**.❤️
 
+让我们从这里开始:)
+
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	printf("Hello World!\n");
+	return 0;
+}
+```
+
 ---
 
 ## 索引
