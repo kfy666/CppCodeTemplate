@@ -35,7 +35,29 @@ int main()
 }
 ```
 
-**注意: 本仓库内所有<code>.cpp</code>文件的头文件均采用万能头<code>bits/stdc++.h</code>, 如果您的编译器不支持此头文件, 请更换为<code>iostream</code>等更通用的头文件.**
+**注意: 本仓库内所有<code>.cpp</code>文件的头文件均采用万能头<code>bits/stdc++.h</code>, 如果您的编译器不支持此头文件, 请更换为<code>iostream</code>等更通用的头文件. 下面提供了这些用于替代的头文件.**
+
+<details>
+<summary> <b>展开查看</b>📑 </summary>
+	
+```cpp
+#include<iostream>
+#include<cstdio>
+#include<fstream>
+#include<algorithm>
+#include<cmath>
+#include<deque>
+#include<vector>
+#include<queue>
+#include<string>
+#include<cstring>
+#include<map>
+#include<stack>
+#include<set>
+#include<cstdlib>
+```
+
+</details>
 
 **注意: 本仓库内所有<code>.cpp</code>文件均含有中文注释, 如果您的编译器不支持中文注释或出现乱码, 请将其改为英文注释或删除这些注释.**
 
