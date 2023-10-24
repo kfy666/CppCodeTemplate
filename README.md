@@ -37,7 +37,7 @@ int main()
 
 ## 索引
 
-> 把文件乱放是程序员的基本素养.
+> 文件再乱, 代码过关就行.
 
 模板存储于<code>Templates</code>文件夹内. 如果不想打开文件夹慢慢查找文件, 你也可以在下面这个链接后方加入后面列表内的文件名来访问对应文件.
 ```
@@ -55,3 +55,9 @@ https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/
 ## 贡献者
 
 点击[这里](https://github.com/kfy666/CppCodeTemplate/graphs/contributors)查看所有贡献者. 如果你在本仓库提交<code>Pull Request</code>并得到通过, 那么你也将成为一名<code>Contributor</code>.
+
+---
+
+## 彩蛋
+
+> 锟斤拷锟斤拷烫烫烫拷斤锟屯屯屯葺葺葺锟斤拷
