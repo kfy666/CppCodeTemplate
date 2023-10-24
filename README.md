@@ -43,16 +43,13 @@ int main()
 
 > 文件再乱, 代码过关就行.
 
-模板存储于<code>Templates</code>文件夹内. 如果不想打开文件夹慢慢查找文件, 你也可以在下面这个链接后方加入后面列表内的文件名来访问对应文件.
-```
-https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/
-```
+模板存储于<code>Templates</code>文件夹内. 如果不想打开文件夹慢慢查找文件, 你也可以访问在下面这个列表中的链接来查看对应文件.
 
-| 项目中文名称 | 项目源程序名称 |
+| 项目中文名称 | 项目源程序链接 |
 |------|------|
-|线段树-单点修改-区间查询 | <code>Seg-PointUpdate-RangeQuery.cpp</code> |
-|快读| <code>Quick-read.cpp</code> |
-|Dijkstra求最短路-左偏树维护| <code>Dijkstra-Leftist-tree.cpp</code> |
+|线段树-单点修改-区间查询 | <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Seg-PointUpdate-RangeQuery.cpp</code> |
+|快读| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Quick-read.cpp</code> |
+|Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Dijkstra-Leftist-tree.cpp</code> |
 
 ---
 
