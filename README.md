@@ -19,9 +19,11 @@
 
 [Ch] 感谢您访问我们的仓库! 这里有丰富详实的专为信息学竞赛(OI)打造的C++代码模板, 完全**免费**. 如果您想使用我们的模板, 请给这个仓库⭐**Star**⭐并**标明出处**.❤️
 
+欢迎您上传您的代码模板, 我们将尽快<code>Merge</code>您的<code>Pull Request</code>. 希望您能成为我们的<code>Contributor</code>!
+
 ![progress](https://img.shields.io/badge/更新进度-1%25-red)
 
-让我们从这里开始 :)
+梦开始的地方 :)
 
 ```cpp
 #include<bits/stdc++.h>
