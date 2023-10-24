@@ -49,9 +49,10 @@ int main()
 
 | 项目中文名称 | 项目源程序链接 |
 |------|------|
-|线段树-单点修改-区间查询 | <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Seg-PointUpdate-RangeQuery.cpp</code> |
+|线段树维护区间和-单点修改-区间查询 | <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Seg-PointUpdate-RangeQuery.cpp</code> |
 |快读| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Quick-read.cpp</code> |
 |Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Dijkstra-Leftist-tree.cpp</code> |
+|线性筛法筛质数| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Prime-Euler-sieve.cpp</code> |
 
 ---
 
