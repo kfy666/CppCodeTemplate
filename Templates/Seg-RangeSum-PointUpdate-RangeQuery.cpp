@@ -43,7 +43,7 @@ ll query(ll p, ll l, ll r, ll ql, ll qr)//区间查询, l, r为当前区间, ql, qr为目标
 int main()
 {
 	scanf("%lld", &n);
-	for(ll i = 1;i <= n;i++)
+	for(ll i = 1; i <= n; i++)
 	{
 		scanf("%lld", a + i);
 	}
