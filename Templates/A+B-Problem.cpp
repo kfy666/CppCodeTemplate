@@ -9,6 +9,9 @@ int main()
 {
 	scanf("%d%d", &a, &b);//输入a, b
 	printf("%d\n", a + b);//输出a + b
+	//也可以使用以下两行代码
+	//cin >> a >> b;//输入a, b
+	//cout << a + b << endl;//输出a + b
 	return 0;
 }
 
