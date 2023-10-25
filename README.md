@@ -21,7 +21,7 @@
 
 欢迎您上传您的代码模板, 我们将尽快<code>Merge</code>您的<code>Pull Request</code>. 希望您能成为我们的<code>Contributor</code>!
 
-![progress](https://img.shields.io/badge/更新进度-1%25_(5/1000+)-orange)
+![progress](https://img.shields.io/badge/更新进度-1%25_(6/1000+)-orange)
 
 梦开始的地方 :)
 
@@ -90,3 +90,5 @@ int main()
 ## 彩蛋
 
 > 锟斤拷锟斤拷烫烫烫拷斤锟屯屯屯葺葺葺锟斤拷
+> 
+衷心祝愿您下载的文件不会出现这种东西.
