@@ -21,7 +21,7 @@
 
 欢迎您上传您的代码模板, 我们将尽快<code>Merge</code>您的<code>Pull Request</code>. 希望您能成为我们的<code>Contributor</code>!
 
-![progress](https://img.shields.io/badge/更新进度-1%25_(5/1000+)-orange)
+![progress](https://img.shields.io/badge/更新进度-1%25_(6/1000+)-orange)
 
 梦开始的地方 :)
 
@@ -72,7 +72,8 @@ int main()
 
 | 项目名称 | 项目源程序链接 |
 |------|------|
-|HelloWorld| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/HelloWorld.cpp</code> |
+|Hello World| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/HelloWorld.cpp</code> |
+|A+B Problem| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/A%2BB-Problem.cpp</code> |
 |线段树维护区间和-单点修改-区间查询 | <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Seg-PointUpdate-RangeQuery.cpp</code> |
 |快读| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Quick-read.cpp</code> |
 |Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Dijkstra-Leftist-tree.cpp</code> |
@@ -89,3 +90,5 @@ int main()
 ## 彩蛋
 
 > 锟斤拷锟斤拷烫烫烫拷斤锟屯屯屯葺葺葺锟斤拷
+> 
+衷心祝愿您下载的文件不会出现这种东西.
