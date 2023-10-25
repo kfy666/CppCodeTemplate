@@ -1,4 +1,4 @@
-//çº¿æ€§ç­›æ³•ç­›è´¨æ•°
+//ÏßÐÔÉ¸·¨É¸ÖÊÊý
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -7,7 +7,7 @@ const ll N = 1e5 + 5;
 bool vis[N];
 ll pri[N], cnt;
 
-void init(ll n)//çº¿æ€§ç­›æ³•ç­›è´¨æ•°
+void init(ll n)//ÏßÐÔÉ¸·¨É¸ÖÊÊý
 {
 	vis[0] = vis[1] = 1;
 	for(ll i = 2;i <= n;i++)
@@ -25,9 +25,9 @@ void init(ll n)//çº¿æ€§ç­›æ³•ç­›è´¨æ•°
 
 int main()
 {
-	ll ed = 1000000ll;//edæ˜¯ç­›è´¨æ•°çš„ä¸Šç•Œ
+	ll ed = 1000000ll;//edÊÇÉ¸ÖÊÊýµÄÉÏ½ç
 	init(ed);
-	for(ll i = 1;i <= min(N, ed);i++)//è¾“å‡ºç­›å‡ºçš„è´¨æ•°
+	for(ll i = 1;i <= min(N, ed);i++)//Êä³öÉ¸³öµÄÖÊÊý
 	{
 		if(!vis[i]) printf("%lld ", i);
 	}

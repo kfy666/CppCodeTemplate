@@ -1,4 +1,4 @@
-//å¿«è¯»
+//¿ì¶Á
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -7,17 +7,17 @@ int n;
 
 void read(int &r)
 {
-	int f = 1;//fæ˜¯ç¬¦å·å˜é‡
-	r = 0;//å°†ç›®æ ‡rèµ‹å€¼ä¸º0
-	char ch = getchar();//chè¯»å…¥å•ä¸ªå­—ç¬¦
-	while(ch < '0' || ch > '9')//ä¸æ˜¯æ•°å­—
+	int f = 1;//fÊÇ·ûºÅ±äÁ¿
+	r = 0;//½«Ä¿±êr¸³ÖµÎª0
+	char ch = getchar();//ch¶ÁÈëµ¥¸ö×Ö·û
+	while(ch < '0' || ch > '9')//²»ÊÇÊı×Ö
 	{
-		if(ch == '-') f = -1;//è´Ÿå·
+		if(ch == '-') f = -1;//¸ººÅ
 		ch = getchar();
 	}
-	while(ch >= '0' && ch <= '9')//æ˜¯æ•°å­—
+	while(ch >= '0' && ch <= '9')//ÊÇÊı×Ö
 	{
-		r=(r << 3) + (r << 1) + (ch ^ 48);//ä½è¿ç®—åŠ å¿«æ“ä½œ, ç­‰æ•ˆäºr = r * 10 + ch - '0'
+		r=(r << 3) + (r << 1) + (ch ^ 48);//Î»ÔËËã¼Ó¿ì²Ù×÷, µÈĞ§ÓÚr = r * 10 + ch - '0'
 		ch = getchar();
 	}
 	r = f * r;

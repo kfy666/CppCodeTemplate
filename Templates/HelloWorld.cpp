@@ -1,10 +1,10 @@
-#include<bits/stdc++.h>//è¿™ä¸ªæ˜¯å¤´æ–‡ä»¶
-using namespace std;//ä½¿ç”¨å‘½åç©ºé—´std
+#include<bits/stdc++.h>//Õâ¸öÊÇÍ·ÎÄ¼ş
+using namespace std;//Ê¹ÓÃÃüÃû¿Õ¼ästd
 
-int main()//ä¸»å‡½æ•°
+int main()//Ö÷º¯Êı
 {
-    printf("Hello World!\n");//è¯·è®°ä½åœ¨éœ€è¦çš„åœ°æ–¹åŠ ä¸Šåˆ†å·;
-    //ä¹Ÿå¯ä½¿ç”¨ä¸‹ä¸€è¡Œä»£ç 
+    printf("Hello World!\n");//Çë¼Ç×¡ÔÚĞèÒªµÄµØ·½¼ÓÉÏ·ÖºÅ;
+    //Ò²¿ÉÊ¹ÓÃÏÂÒ»ĞĞ´úÂë
 	//cout<<"Hello World!"<<endl;
-    return 0;//return 0æ˜¯å¥½ä¹ æƒ¯
+    return 0;//return 0ÊÇºÃÏ°¹ß
 }
