@@ -25,7 +25,7 @@ void init(ll n)//线性筛法筛质数
 
 int main()
 {
-	ll ed = 100000ll;//ed是筛质数的上界
+	ll ed = 1000000ll;//ed是筛质数的上界
 	init(ed);
 	for(ll i = 1;i <= min(N, ed);i++)//输出筛出的质数
 	{
