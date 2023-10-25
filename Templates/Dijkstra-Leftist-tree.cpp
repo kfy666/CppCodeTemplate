@@ -1,4 +1,4 @@
-//Dijkstraæ±‚æœ€çŸ­è·¯,å·¦åæ ‘ç»´æŠ¤
+//DijkstraÇó×î¶ÌÂ·,×óÆ«Ê÷Î¬»¤
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -11,15 +11,15 @@ ll n, m, s;
 struct Edge
 {
 	ll ne, to, w;
-}e[N << 1];//eå­˜è¾¹
+}e[N << 1];//e´æ±ß
 
-void add(ll u, ll v, ll w)//åŠ è¾¹
+void add(ll u, ll v, ll w)//¼Ó±ß
 {
 	++tot;
 	e[tot].to = v, e[tot].w = w, e[tot].ne = head[u], head[u] = tot;
 }
 
-ll merge(ll x, ll y)//å·¦åæ ‘çš„mergeæ“ä½œ
+ll merge(ll x, ll y)//×óÆ«Ê÷µÄmerge²Ù×÷
 {
 	if(!x || !y) return x + y;
 	if(val[y] < val[x]) swap(x, y);
@@ -29,7 +29,7 @@ ll merge(ll x, ll y)//å·¦åæ ‘çš„mergeæ“ä½œ
 	return x;
 }
 
-void dijkstra(ll s)//æœ€çŸ­è·¯
+void dijkstra(ll s)//×î¶ÌÂ·
 {
 	memset(dis, 0x3f, sizeof(dis));
 	dis[s] = 0;
@@ -45,11 +45,11 @@ void dijkstra(ll s)//æœ€çŸ­è·¯
 		if(rt == 0) break;
 		ll u = ver[rt];
 		book[u] = 1;
-		for(ll i = head[u];~i;i = e[i].ne)//éå†uçš„å‡ºè¾¹, æ­¤å¤„ç”¨~iåˆ¤æ–­head[i]æ˜¯å¦ä¸º-1(ç©º)
+		for(ll i = head[u];~i;i = e[i].ne)//±éÀúuµÄ³ö±ß, ´Ë´¦ÓÃ~iÅĞ¶Ïhead[i]ÊÇ·ñÎª-1(¿Õ)
 		{
 			ll v = e[i].to;
 			if(book[v]) continue;
-			if(dis[v] > dis[u] + e[i].w)//æ¾å¼›
+			if(dis[v] > dis[u] + e[i].w)//ËÉ³Ú
 			{
 				dis[v] = dis[u] + e[i].w;
 				val[++cnt] = dis[v];
@@ -63,8 +63,8 @@ void dijkstra(ll s)//æœ€çŸ­è·¯
 
 int main()
 {
-	memset(head, -1, sizeof(head));//æ•°ç»„åˆå§‹åŒ–ä¸º-1, é˜²æ­¢å†…å­˜è¯»å–æ—¶å‡ºé”™
-	scanf("%lld%lld%lld", &n, &m, &s);//è¾“å…¥ç‚¹æ•°n, è¾¹æ•°m, æºç‚¹s
+	memset(head, -1, sizeof(head));//Êı×é³õÊ¼»¯Îª-1, ·ÀÖ¹ÄÚ´æ¶ÁÈ¡Ê±³ö´í
+	scanf("%lld%lld%lld", &n, &m, &s);//ÊäÈëµãÊın, ±ßÊım, Ô´µãs
 	for(ll i = 1;i <= m;i++)
 	{
 		ll u, v, w;
@@ -72,7 +72,7 @@ int main()
 		add(u, v, w);
 	}
 	dijkstra(s);
-	for(ll i = 1;i <= n;i++)//è¾“å‡ºå„ç‚¹åˆ°sçš„è·ç¦»
+	for(ll i = 1;i <= n;i++)//Êä³ö¸÷µãµ½sµÄ¾àÀë
 	{
 		printf("%lld ", dis[i]);
 	}
