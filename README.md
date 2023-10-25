@@ -72,7 +72,8 @@ int main()
 
 | 项目名称 | 项目源程序链接 |
 |------|------|
-|HelloWorld| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/HelloWorld.cpp</code> |
+|Hello World| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/HelloWorld.cpp</code> |
+|A+B Problem| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/A%2BB-Problem.cpp</code> |
 |线段树维护区间和-单点修改-区间查询 | <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Seg-PointUpdate-RangeQuery.cpp</code> |
 |快读| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Quick-read.cpp</code> |
 |Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Dijkstra-Leftist-tree.cpp</code> |
