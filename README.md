@@ -22,7 +22,7 @@
 欢迎您上传您的代码模板, 我们将在第一时间<code>Merge</code>您的<code>Pull Request</code>. 希望您能成为我们的<code>Contributor</code>!
 如果您发现我们的代码模板有纰漏, 欢迎提交<code>Issue</code>, 我们将在第一时间处理.
 
-![progress](https://img.shields.io/badge/更新进度-1%25_(9/1000+)-orange)
+![progress](https://img.shields.io/badge/更新进度-1%25_(10/1000+)-orange)
 
 梦开始的地方 :)
 
@@ -79,6 +79,7 @@ int main()
 |冒泡排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Bubble-sort.cpp</code> |
 |插入排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Insertion-sort.cpp</code> |
 |线段树维护区间和-单点修改-区间查询 | <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Seg-PointUpdate-RangeQuery.cpp</code> |
+|Splay| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Splay.cpp</code> |
 |快读| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Quick-read.cpp</code> |
 |Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Dijkstra-Leftist-tree.cpp</code> |
 |线性筛法筛质数| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Prime-Euler-sieve.cpp</code> |
