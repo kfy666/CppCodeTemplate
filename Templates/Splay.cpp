@@ -1,33 +1,32 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
-
-const int N = 1e6 + 6;
+const int N = 1e5 + 5;
 int rt, tot, fa[N], ch[N][2], val[N], cnt[N], sz[N];
 
-// Обновление значения узла x
-// 在改变节点位置后，将节点 x 的 size 更新
-void maintain(int x){
+//在改变节点位置后，将节点x的size更新
+void maintain(int x)
+{
 	sz[x] = sz[ch[x][0]] + sz[ch[x][1]] + cnt[x];
 }
 
-// Определите, является ли узел x левым или правым потомком родительского узла
-// 判断节点 x 是父亲节点的左儿子还是右儿子
-bool get(int x){
+//判断节点x是父亲节点的左儿子还是右儿子
+bool get(int x)
+{
 	return x == ch[fa[x]][1];
 }
 
-// Уничтожение узла x
-// 销毁节点 x
-void clear(int x){
+//销毁节点x
+void clear(int x)
+{
 	ch[x][0] = ch[x][1] = fa[x] = val[x] = sz[x] = cnt[x] = 0;
 }
 
-// вращать
 //旋转 
-void rotate(int x){
+void rotate(int x)
+{
 	int y = fa[x], z = fa[y], chk = get(x);
 	ch[y][chk] = ch[x][chk ^ 1];
-	if(ch[x][chk ^ 1])	fa[ch[x][chk ^ 1]] = y;
+	if(ch[x][chk ^ 1]) fa[ch[x][chk ^ 1]] = y;
 	ch[x][chk ^ 1] = y;
 	fa[y] = x;
 	fa[x] = z;
@@ -36,79 +35,87 @@ void rotate(int x){
 	maintain(x);
 }
 
-// Операции Splay
-// Splay 操作 
-void splay(int x) {
+//Splay操作 
+void splay(int x)
+{
 	for(int f = fa[x]; f = fa[x], f; rotate(x))
+	{
 		if(fa[f]) rotate(get(x) == get(f) ? f : x);
+	}
 	rt = x;
 }
 
-// Операция вставки
 //插入操作 
-void ins(int k) {
-	if(!rt) {
+void ins(int k)
+{
+	if(!rt)
+	{
 		val[++tot] = k;
 		cnt[tot]++;
 		rt = tot;
 		maintain(rt);
-		return;
+		return ;
 	}
 	int cur = rt, f = 0;
-	while(1) {
-		if (val[cur] == k) {
-		cnt[cur]++;
-		maintain(cur);
-		maintain(f);
-		splay(cur);
-		break;
-	}
-	f = cur;
-	cur = ch[cur][val[cur] < k];
-	if(!cur) {
-		val[++tot] = k;
-		cnt[tot]++;
-		fa[tot] = f;
-		ch[f][val[f] < k] = tot;
-		maintain(tot);
-		maintain(f);
-		splay(tot);
-		break;
+	while(1)
+	{
+		if (val[cur] == k)
+		{
+			cnt[cur]++;
+			maintain(cur);
+			maintain(f);
+			splay(cur);
+			break;
+		}
+		f = cur;
+		cur = ch[cur][val[cur] < k];
+		if(!cur)
+		{
+			val[++tot] = k;
+			cnt[tot]++;
+			fa[tot] = f;
+			ch[f][val[f] < k] = tot;
+			maintain(tot);
+			maintain(f);
+			splay(tot);
+			break;
 		}
 	}
 }
 
-// Запрос ранга x
-//查询 x 的排名
-int rk(int k) {
+//查询x的排名
+int rk(int k)
+{
 	int res = 0, cur = rt;
-	while(1) {
-		if (k < val[cur]) {
-		cur = ch[cur][0];
-		}
-		else {
+	while(1)
+	{
+		if(k < val[cur]) cur = ch[cur][0];
+		else
+		{
 			res += sz[ch[cur][0]];
-			if (k == val[cur]) {
+			if(k == val[cur])
+			{
 				splay(cur);
 				return res + 1;
-		}
-		res += cnt[cur];
-		cur = ch[cur][1];
+			}
+			res += cnt[cur];
+			cur = ch[cur][1];
 		}
 	}
 }
 
-// Количество запросов с рангом x
-// 查询排名为 x 的数
-int kth(int k) {
+//查询排名为x的数
+int kth(int k)
+{
 	int cur = rt;
-	while (1) {
-		if (ch[cur][0] && k <= sz[ch[cur][0]]) {
-			cur = ch[cur][0];
-		}
-		else {
+	while(1)
+	{
+		if(ch[cur][0] && k <= sz[ch[cur][0]]) cur = ch[cur][0];
+		else
+		{
 			k -= cnt[cur] + sz[ch[cur][0]];
-			if (k <= 0) {
+			if(k <= 0)
+			{
 				splay(cur);
 				return val[cur];
 			}
@@ -117,53 +124,63 @@ int kth(int k) {
 	}
 }
 
-// прекурсор запроса
-// 查询前驱
-int pre() {
+//查询前驱
+int pre()
+{
 	int cur = ch[rt][0];
-	if (!cur) return cur;
-	while (ch[cur][1]) cur = ch[cur][1];
+	if(!cur) return cur;
+	while(ch[cur][1])
+	{
+		cur = ch[cur][1];
+	}
 	splay(cur);
 	return cur;
 }
 
-// Последующие действия по запросу
-// 查询后继
-int nxt() {
+//查询后继
+int nxt()
+{
 	int cur = ch[rt][1];
-	if (!cur) return cur;
-	while (ch[cur][0]) cur = ch[cur][0];
+	if(!cur)return cur;
+	while(ch[cur][0])
+	{
+		cur = ch[cur][0];
+	}
 	splay(cur);
 	return cur;
 }
 
-// Слияние двух деревьев
 //合并两棵树
-void del(int k) {
+void del(int k)
+{
 	rk(k);
-	if (cnt[rt] > 1) {
+	if(cnt[rt] > 1)
+	{
 		cnt[rt]--;
 		maintain(rt);
-		return;
+		return ;
 	}
-	if (!ch[rt][0] && !ch[rt][1]) {
+	if(!ch[rt][0] && !ch[rt][1])
+	{
 		clear(rt);
 		rt = 0;
-		return;
+		return ;
 	}
-	if (!ch[rt][0]) {
+	if(!ch[rt][0])
+	{
 		int cur = rt;
 		rt = ch[rt][1];
 		fa[rt] = 0;
 		clear(cur);
-		return;
+		return ;
 	}
-	if (!ch[rt][1]) {
+	if(!ch[rt][1])
+	{
 		int cur = rt;
 		rt = ch[rt][0];
 		fa[rt] = 0;
 		clear(cur);
-		return;
+		return ;
 	}
 	int cur = rt, x = pre();
 	fa[ch[cur][1]] = x;
@@ -172,8 +189,8 @@ void del(int k) {
 	maintain(rt);
 }
 
-int main(){
-
+int main()
+{
 	return 0;
 }
 
