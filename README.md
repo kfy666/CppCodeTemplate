@@ -78,7 +78,7 @@ int main()
 |选择排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Selection-sort.cpp</code> |
 |冒泡排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Bubble-sort.cpp</code> |
 |插入排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Insertion-sort.cpp</code> |
-|线段树维护区间和-单点修改-区间查询 | <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Seg-PointUpdate-RangeQuery.cpp</code> |
+|线段树维护区间和-单点修改-区间查询 | <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Seg-RangeSum-PointUpdate-RangeQuery.cpp</code> |
 |Splay| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Splay.cpp</code> |
 |快读| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Quick-read.cpp</code> |
 |Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Dijkstra-Leftist-tree.cpp</code> |
