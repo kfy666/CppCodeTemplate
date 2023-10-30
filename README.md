@@ -63,6 +63,12 @@ int main()
 
 **注意: 本仓库内所有<code>.cpp</code>文件均含有中文注释, 如果您的编译器不支持中文注释或出现乱码, 请将其改为英文注释或删除这些注释.**
 
+另外附上开启<code>O2</code>优化和<code>O3</code>优化的代码:
+```cpp
+#pragma GCC optimize(2)//O2优化
+#pragma GCC optimize(3,"Ofast","inline")//O3优化
+```
+
 ---
 
 ## 索引
