@@ -34,10 +34,10 @@
 
 [Ch] 感谢您访问我们的仓库! 这里有丰富详实的专为信息学竞赛(OI)打造的C++代码模板, 完全**免费**. 如果您想使用我们的模板, 请给这个仓库⭐**Star**⭐并**标明出处**.❤️
 
-欢迎您上传您的代码模板, 我们将在第一时间<code>Merge</code>您的<code>Pull Request</code>. 希望您能成为我们的<code>Contributor</code>!
+欢迎您上传您的代码模板, 我们将在第一时间回复并处理您的<code>Pull Request</code>. 希望您能成为我们的<code>Contributor</code>!
 如果您发现我们的代码模板有纰漏, 欢迎提交<code>Issue</code>, 我们将在第一时间处理.
 
-![progress](https://img.shields.io/badge/更新进度-1%25_(11/1000+)-orange)
+![progress](https://img.shields.io/badge/更新进度-1%25_(12/1000+)-orange)
 
 梦开始的地方 :)
 
@@ -101,6 +101,7 @@ int main()
 |插入排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Insertion-sort.cpp</code> |
 |计数排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Counting-sort.cpp</code> |
 |线段树维护区间和-单点修改-区间查询 | <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Seg-RangeSum-PointUpdate-RangeQuery.cpp</code> |
+|二维树状数组| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Fenwick-Two-dimension.cpp</code> |
 |Splay| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Splay.cpp</code> |
 |快读| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Quick-read.cpp</code> |
 |Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Dijkstra-Leftist-tree.cpp</code> |
