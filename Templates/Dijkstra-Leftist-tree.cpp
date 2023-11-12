@@ -1,25 +1,25 @@
-//DijkstraÇó×î¶ÌÂ·,×óÆ«Ê÷Î¬»¤
+//Dijkstraæ±‚æœ€çŸ­è·¯, å·¦åæ ‘ç»´æŠ¤
 #include<bits/stdc++.h>
 using namespace std;
-typedef long long ll;
-const ll N = 1e5 + 5, M = 2e5 + 5;
+typedef long long LL;
+const LL N = 1e5 + 5, M = 2e5 + 5;
 
-ll dis[N], val[N], ver[M], ls[M], rs[M], dep[M], rt, book[N], cnt;
-ll tot = -1, head[N];
-ll n, m, s;
+LL dis[N], val[N], ver[M], ls[M], rs[M], dep[M], rt, book[N], cnt;
+LL tot = -1, head[N];
+LL n, m, s;
 
 struct Edge
 {
-	ll ne, to, w;
-}e[N << 1];//e´æ±ß
+	LL ne, to, w;
+}e[N << 1];//eå­˜è¾¹
 
-void add(ll u, ll v, ll w)//¼Ó±ß
+void add(LL u, LL v, LL w)//åŠ è¾¹
 {
 	++tot;
 	e[tot].to = v, e[tot].w = w, e[tot].ne = head[u], head[u] = tot;
 }
 
-ll merge(ll x, ll y)//×óÆ«Ê÷µÄmerge²Ù×÷
+LL merge(LL x, LL y)//å·¦åæ ‘çš„mergeæ“ä½œ
 {
 	if(!x || !y) return x + y;
 	if(val[y] < val[x]) swap(x, y);
@@ -29,7 +29,7 @@ ll merge(ll x, ll y)//×óÆ«Ê÷µÄmerge²Ù×÷
 	return x;
 }
 
-void dijkstra(ll s)//×î¶ÌÂ·
+void dijkstra(ll s)//æœ€çŸ­è·¯
 {
 	memset(dis, 0x3f, sizeof(dis));
 	dis[s] = 0;
@@ -43,13 +43,13 @@ void dijkstra(ll s)//×î¶ÌÂ·
 			rt=merge(ls[rt], rs[rt]);
 		}
 		if(rt == 0) break;
-		ll u = ver[rt];
+		LL u = ver[rt];
 		book[u] = 1;
-		for(ll i = head[u]; ~i; i = e[i].ne)//±éÀúuµÄ³ö±ß, ´Ë´¦ÓÃ~iÅĞ¶Ïhead[i]ÊÇ·ñÎª-1(¿Õ)
+		for(LL i = head[u]; ~i; i = e[i].ne)//éå†uçš„å‡ºè¾¹, æ­¤å¤„ç”¨~iåˆ¤æ–­head[i]æ˜¯å¦ä¸º-1(ç©º)
 		{
-			ll v = e[i].to;
+			LL v = e[i].to;
 			if(book[v]) continue;
-			if(dis[v] > dis[u] + e[i].w)//ËÉ³Ú
+			if(dis[v] > dis[u] + e[i].w)//æ¾å¼›
 			{
 				dis[v] = dis[u] + e[i].w;
 				val[++cnt] = dis[v];
@@ -63,16 +63,16 @@ void dijkstra(ll s)//×î¶ÌÂ·
 
 int main()
 {
-	memset(head, -1, sizeof(head));//Êı×é³õÊ¼»¯Îª-1, ·ÀÖ¹ÄÚ´æ¶ÁÈ¡Ê±³ö´í
-	scanf("%lld%lld%lld", &n, &m, &s);//ÊäÈëµãÊın, ±ßÊım, Ô´µãs
-	for(ll i = 1; i <= m; i++)//¶ÁÈë±ß
+	memset(head, -1, sizeof(head));//æ•°ç»„åˆå§‹åŒ–ä¸º-1, é˜²æ­¢å†…å­˜è¯»å–æ—¶å‡ºé”™
+	scanf("%lld%lld%lld", &n, &m, &s);//è¾“å…¥ç‚¹æ•°n, è¾¹æ•°m, æºç‚¹s
+	for(LL i = 1; i <= m; i++)//è¯»å…¥è¾¹
 	{
-		ll u, v, w;
+		LL u, v, w;
 		scanf("%lld%lld%lld", &u, &v, &w);
 		add(u, v, w);
 	}
 	dijkstra(s);
-	for(ll i = 1; i <= n; i++)//Êä³ö¸÷µãµ½sµÄ¾àÀë
+	for(LL i = 1; i <= n; i++)//è¾“å‡ºå„ç‚¹åˆ°sçš„è·ç¦»
 	{
 		printf("%lld ", dis[i]);
 	}
