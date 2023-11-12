@@ -1,6 +1,6 @@
 //二维树状数组
 #include <bits/stdc++.h>
-#define lowbit(x) (x&-x)
+#define lowbit(x) (x & -x)
 typedef long long ll;
 using namespace std;
 
@@ -21,9 +21,9 @@ void add(ll x, ll y, ll v)
 ll sum(ll x,ll y)
 {
 	ll s = 0;
-	for(ll i=x; i>0; i-=lowbit(i))
+	for(ll i = x; i > 0; i -= lowbit(i))
 	{
-		for(ll j=y; j>0; j-=lowbit(j))
+		for(ll j = y; j > 0; j -= lowbit(j))
 		{
 			s += t[i][j];
 		}
