@@ -1,3 +1,4 @@
+//二维树状数组
 #include <bits/stdc++.h>
 #define lowbit(x) (x&-x)
 typedef long long ll;
