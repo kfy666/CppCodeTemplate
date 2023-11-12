@@ -1,29 +1,29 @@
-//äºŒç»´æ ‘çŠ¶æ•°ç»„
+//¶þÎ¬Ê÷×´Êý×é
 #include <bits/stdc++.h>
 #define lowbit(x) (x & -x)
-typedef long long ll;
+typedef long long LL;
 using namespace std;
 
-const ll N = 4096 + 6;
-ll t[N][N], n, m, op, a, b, c, d;
+const LL N = 4096 + 6;
+LL t[N][N], n, m, op, a, b, c, d;
 
-void add(ll x, ll y, ll v)
+void add(LL x, LL y, LL v)
 {
-	for(ll i = x; i < N; i += lowbit(i))
+	for(LL i = x; i < N; i += lowbit(i))
 	{
-		for(ll j = y; j < N; j += lowbit(j))
+		for(LL j = y; j < N; j += lowbit(j))
 		{
 			t[i][j] += v;
 		}
 	}
 }
 
-ll sum(ll x,ll y)
+LL sum(LL x,LL y)
 {
-	ll s = 0;
-	for(ll i = x; i > 0; i -= lowbit(i))
+	LL s = 0;
+	for(LL i = x; i > 0; i -= lowbit(i))
 	{
-		for(ll j = y; j > 0; j -= lowbit(j))
+		for(LL j = y; j > 0; j -= lowbit(j))
 		{
 			s += t[i][j];
 		}
