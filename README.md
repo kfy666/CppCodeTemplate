@@ -90,7 +90,7 @@ int main()
 
 > 文件再乱, 代码过关就行.
 
-模板存储于<code>Templates</code>文件夹内. 如果不想打开文件夹慢慢查找文件, 你也可以访问在下面这个列表中的链接来查看对应文件.
+模板存储于<code>Templates</code>文件夹内. 如果不想打开文件夹慢慢查找文件, 你也可以访问下面这个列表中的链接来查看对应文件.
 
 | 项目名称 | 项目源程序链接 |
 |------|------|
@@ -111,6 +111,10 @@ int main()
 ## 贡献者
 
 点击[这里](https://github.com/kfy666/CppCodeTemplate/graphs/contributors)查看所有贡献者. 如果你在本仓库提交<code>Pull Request</code>并得到通过, 那么你也将成为一名<code>Contributor</code>.
+
+以下列出所有提交了<code>Pull Request</code>的贡献者名单(按首次提交并合并<code>Pull Request</code>的时间顺序排列):
+
+[kfy666](https://github.com/kfy666), [GTC-Byzantine](https://github.com/GTC-Byzantine), <!--[2044-space-elevator](https://github.com/2044-space-elevator)-->.
 
 ---
 
