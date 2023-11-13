@@ -4,7 +4,7 @@ const int N = 1e5 + 10;
 
 int ls[N], rs[N], val[N], dist[N];
 
-int merge(int x, int y)//x,y:å †é¡¶èŠ‚ç‚¹ 
+int merge(int x, int y)//x,y:¶Ñ¶¥½Úµã
 {
 	if(val[y] < val[x] || (val[x] == val[y] && y < x)) swap(x, y);
 	rs[x] = merge(rs[x], y);
@@ -18,9 +18,9 @@ void pop(int u)
 	del[u] = true;
 	fa[ls[u]] = ls[u];
 	fa[rs[u]] = rs[u];
-	//å…ˆæŠŠå·¦å³å„¿å­æ‹†å‡ºåŽ»
+	//ÏÈ°Ñ×óÓÒ¶ù×Ó²ð³öÈ¥
 	fa[u] = merge(ls[u], rs[u]);
-	//ç„¶åŽåˆå¹¶ä¸ºä¸€ä¸ªæ–°å †
+	//È»ºóºÏ²¢ÎªÒ»¸öÐÂ¶Ñ
 }
 
 int main()
