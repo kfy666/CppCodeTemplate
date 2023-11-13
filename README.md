@@ -37,7 +37,7 @@
 欢迎您上传您的代码模板, 我们将在第一时间回复并处理您的<code>Pull Request</code>. 希望您能成为我们的<code>Contributor</code>!
 如果您发现我们的代码模板有纰漏, 欢迎提交<code>Issue</code>, 我们将在第一时间处理.
 
-![progress](https://img.shields.io/badge/更新进度-1%25_(13/1000+)-orange)
+![progress](https://img.shields.io/badge/更新进度-1%25_(15/1000+)-orange)
 
 梦开始的地方 :)
 
@@ -76,7 +76,7 @@ int main()
 
 </details>
 
-**注意: 本仓库内所有<code>.cpp</code>文件均含有中文注释, 如果您的编译器不支持中文注释或出现乱码, 请将其改为英文注释或删除这些注释.**
+**注意: 本仓库内所有<code>.cpp</code>文件均含有中文注释, 如果您的编译器不支持中文注释或出现乱码, 请将其改为英文注释或删除这些注释. 如果您下载的文件有乱码, 您也可以从网页上直接拷贝整段代码以防止乱码出现. 您可以通过提交<code>Issue</code>来告诉我们哪个文件有乱码.**
 
 另外附上开启<code>O2</code>优化和<code>O3</code>优化的代码:
 ```cpp
@@ -101,8 +101,10 @@ int main()
 |插入排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Insertion-sort.cpp</code> |
 |计数排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Counting-sort.cpp</code> |
 |线段树维护区间和-单点修改-区间查询 | <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Seg-RangeSum-PointUpdate-RangeQuery.cpp</code> |
+|差分树状数组| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Fenwick-Adjacent-difference.cpp</code> |
 |二维树状数组| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Fenwick-Two-dimension.cpp</code> |
 |Splay| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Splay.cpp</code> |
+|左偏树| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Leftist-tree.cpp</code> |
 |快读| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Quick-read.cpp</code> |
 |Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Dijkstra-Leftist-tree.cpp</code> |
 |中国剩余定理(CRT)| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Chinese-remainder-theorem.cpp</code> |
