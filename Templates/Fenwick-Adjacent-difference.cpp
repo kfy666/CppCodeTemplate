@@ -1,13 +1,4 @@
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <cstring>
-#include <algorithm>
-#include <math.h>
-#include <queue>
-#include <bitset>
-#include <stack>
-#include <map>
+#include<
 #define lowbit(x) (x&-x)
 #define lld long long
 #define int long long
