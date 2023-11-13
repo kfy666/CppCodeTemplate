@@ -37,7 +37,7 @@
 欢迎您上传您的代码模板, 我们将在第一时间回复并处理您的<code>Pull Request</code>. 希望您能成为我们的<code>Contributor</code>!
 如果您发现我们的代码模板有纰漏, 欢迎提交<code>Issue</code>, 我们将在第一时间处理.
 
-![progress](https://img.shields.io/badge/更新进度-1%25_(12/1000+)-orange)
+![progress](https://img.shields.io/badge/更新进度-1%25_(13/1000+)-orange)
 
 梦开始的地方 :)
 
@@ -105,6 +105,7 @@ int main()
 |Splay| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Splay.cpp</code> |
 |快读| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Quick-read.cpp</code> |
 |Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Dijkstra-Leftist-tree.cpp</code> |
+|中国剩余定理(CRT)| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Chinese-remainder-theorem.cpp</code> |
 |线性筛法筛质数| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Prime-Euler-sieve.cpp</code> |
 
 ---
@@ -115,7 +116,7 @@ int main()
 
 以下列出所有提交了<code>Pull Request</code>的贡献者名单(按首次提交并合并<code>Pull Request</code>的时间顺序排列):
 
-[kfy666](https://github.com/kfy666), [GTC-Byzantine](https://github.com/GTC-Byzantine), <!--[2044-space-elevator](https://github.com/2044-space-elevator)-->.
+[kfy666](https://github.com/kfy666), [GTC-Byzantine](https://github.com/GTC-Byzantine), [2044-space-elevator](https://github.com/2044-space-elevator).
 
 ---
 
