@@ -100,21 +100,21 @@ int main()
 
 | 项目名称 | 项目源程序链接 |
 |------|------|
-|Hello World| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/HelloWorld.cpp</code> |
-|A+B Problem| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/A%2BB-Problem.cpp</code> |
-|选择排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Selection-sort.cpp</code> |
-|冒泡排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Bubble-sort.cpp</code> |
-|插入排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Insertion-sort.cpp</code> |
-|计数排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Counting-sort.cpp</code> |
-|线段树维护区间和-单点修改-区间查询 | <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Seg-RangeSum-PointUpdate-RangeQuery.cpp</code> |
-|差分树状数组| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Fenwick-Adjacent-difference.cpp</code> |
-|二维树状数组| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Fenwick-Two-dimension.cpp</code> |
-|Splay| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Splay.cpp</code> |
-|左偏树| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Leftist-tree.cpp</code> |
-|快读| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Quick-read.cpp</code> |
-|Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Dijkstra-Leftist-tree.cpp</code> |
-|中国剩余定理(CRT)| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Chinese-remainder-theorem.cpp</code> |
-|线性筛法筛质数| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Prime-Euler-sieve.cpp</code> |
+|Hello World| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/HelloWorld.cpp</code> |
+|A+B Problem| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/A%2BB-Problem.cpp</code> |
+|选择排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/Selection-sort.cpp</code> |
+|冒泡排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/Bubble-sort.cpp</code> |
+|插入排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/Insertion-sort.cpp</code> |
+|计数排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/Counting-sort.cpp</code> |
+|线段树维护区间和-单点修改-区间查询 | <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Ds/Seg-RangeSum-PointUpdate-RangeQuery.cpp</code> |
+|差分树状数组| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Ds/Fenwick-Adjacent-difference.cpp</code> |
+|二维树状数组| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Ds/Fenwick-Two-dimension.cpp</code> |
+|Splay| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Ds/Splay.cpp</code> |
+|左偏树| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Ds/Leftist-tree.cpp</code> |
+|快读| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/Quick-read.cpp</code> |
+|Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Graph/Dijkstra-Leftist-tree.cpp</code> |
+|中国剩余定理(CRT)| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Math/Chinese-remainder-theorem.cpp</code> |
+|线性筛法筛质数| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Math/Prime-Euler-sieve.cpp</code> |
 
 ---
 
