@@ -49,38 +49,12 @@ LL query2(LL x)
 	return s;
 }
 
-LL ZoneQuery(LL l, LL r)
+LL ZoneQuery(LL l, LL r)//Çø¼ä²éÑ¯
 {
 	return (query1(r) * (r + 1) - query2(r)) - (query1(l - 1) * (l) - query2(l - 1));
 }
 
 int main()
 {
-	scanf("%lld%lld", &n, &q);
-	for(LL i = 1; i <= n; i++)
-	{
-		scanf("%lld", a + i);
-		d[i] = a[i] - a[i - 1];
-		upd1(i, d[i]);
-		upd2(i, d[i]);
-	}
-	while(q--)
-	{
-		scanf("%lld%lld%lld", &op, &l, &r);
-		if(op == 2)
-		{
-			printf("%lld\n", ZoneQuery(l, r));
-		}
-		else
-		{
-			scanf("%lld", &y);
-			d[l] += y;
-			d[r + 1] -= y;
-			upd1(l, y);
-			upd2(l, y);
-			upd1(r + 1, -y);
-			upd2(r + 1, -y);
-		}
-	}
 	return 0;
 }
