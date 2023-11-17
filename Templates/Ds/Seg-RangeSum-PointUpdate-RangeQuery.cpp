@@ -48,7 +48,7 @@ int main()
 		scanf("%lld", a + i);
 	}
 	build(1, n, 1);//建树
-	//update(1, 1, n, 2 ,4);//将位置2的值修改为4
-	//query(1, 1, n, 2, 4);//查询2~4的区间和
+	//update(1, 1, n, pos,v);//将位置pos的值修改为v
+	//query(1, 1, n, l, r);//查询l~r的区间和
 	return 0;
 }
