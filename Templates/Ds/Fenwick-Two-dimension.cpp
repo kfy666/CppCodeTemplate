@@ -31,21 +31,12 @@ LL sum(LL x,LL y)
 	return s;
 }
 
+LL ZoneQuery(LL a, LL b, LL c,LL d)//二位区间查询
+{
+	return sum(c, d) - sum(c, b - 1) - sum(a - 1, d) + sum(a - 1, b - 1);
+}
+
 int main()
 {
-	scanf("%lld%lld", &n, &m);
-	while(scanf("%lld", &op) != EOF)
-	{
-		scanf("%lld%lld%lld", &a, &b, &c);
-		if(op == 1)
-		{
-			add(a, b, c);
-		}
-		else
-		{
-			scanf("%lld", &d);
-			printf("%lld\n", sum(c, d) - sum(c, b - 1) - sum(a - 1, d) + sum(a - 1, b - 1));
-		}
-	}
 	return 0;
 }
