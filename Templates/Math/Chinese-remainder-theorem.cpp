@@ -40,7 +40,7 @@ LL CRT(LL k, LL* a, LL* r)
 int main()
 {
 	scanf("%lld", &n);
-    for(int i =1 ; i <= n; i++)
+    for(int i = 1; i <= n; i++)
 	{
 		scanf("%lld%lld", mods + i, arr + i);
 	}
