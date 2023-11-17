@@ -3,25 +3,25 @@ using namespace std;
 const int N = 1e5 + 5;
 int rt, tot, fa[N], ch[N][2], val[N], cnt[N], sz[N];
 
-//åœ¨æ”¹å˜èŠ‚ç‚¹ä½ç½®åï¼Œå°†èŠ‚ç‚¹xçš„sizeæ›´æ–°
+//ÔÚ¸Ä±ä½ÚµãÎ»ÖÃºó£¬½«½ÚµãxµÄsize¸üĞÂ
 void maintain(int x)
 {
 	sz[x] = sz[ch[x][0]] + sz[ch[x][1]] + cnt[x];
 }
 
-//åˆ¤æ–­èŠ‚ç‚¹xæ˜¯çˆ¶äº²èŠ‚ç‚¹çš„å·¦å„¿å­è¿˜æ˜¯å³å„¿å­
+//ÅĞ¶Ï½ÚµãxÊÇ¸¸Ç×½ÚµãµÄ×ó¶ù×Ó»¹ÊÇÓÒ¶ù×Ó
 bool get(int x)
 {
 	return x == ch[fa[x]][1];
 }
 
-//é”€æ¯èŠ‚ç‚¹x
+//Ïú»Ù½Úµãx
 void clear(int x)
 {
 	ch[x][0] = ch[x][1] = fa[x] = val[x] = sz[x] = cnt[x] = 0;
 }
 
-//æ—‹è½¬ 
+//Ğı×ª
 void rotate(int x)
 {
 	int y = fa[x], z = fa[y], chk = get(x);
@@ -35,7 +35,7 @@ void rotate(int x)
 	maintain(x);
 }
 
-//Splayæ“ä½œ 
+//Splay²Ù×÷
 void splay(int x)
 {
 	for(int f = fa[x]; f = fa[x], f; rotate(x))
@@ -45,7 +45,7 @@ void splay(int x)
 	rt = x;
 }
 
-//æ’å…¥æ“ä½œ 
+//²åÈë²Ù×÷
 void ins(int k)
 {
 	if(!rt)
@@ -83,7 +83,7 @@ void ins(int k)
 	}
 }
 
-//æŸ¥è¯¢xçš„æ’å
+//²éÑ¯xµÄÅÅÃû
 int rk(int k)
 {
 	int res = 0, cur = rt;
@@ -104,7 +104,7 @@ int rk(int k)
 	}
 }
 
-//æŸ¥è¯¢æ’åä¸ºxçš„æ•°
+//²éÑ¯ÅÅÃûÎªxµÄÊı
 int kth(int k)
 {
 	int cur = rt;
@@ -124,7 +124,7 @@ int kth(int k)
 	}
 }
 
-//æŸ¥è¯¢å‰é©±
+//²éÑ¯Ç°Çı
 int pre()
 {
 	int cur = ch[rt][0];
@@ -137,11 +137,11 @@ int pre()
 	return cur;
 }
 
-//æŸ¥è¯¢åç»§
+//²éÑ¯ºó¼Ì
 int nxt()
 {
 	int cur = ch[rt][1];
-	if(!cur)return cur;
+	if(!cur) return cur;
 	while(ch[cur][0])
 	{
 		cur = ch[cur][0];
@@ -150,7 +150,7 @@ int nxt()
 	return cur;
 }
 
-//åˆå¹¶ä¸¤æ£µæ ‘
+//ºÏ²¢Á½¿ÃÊ÷
 void del(int k)
 {
 	rk(k);
@@ -193,6 +193,3 @@ int main()
 {
 	return 0;
 }
-
-
-
