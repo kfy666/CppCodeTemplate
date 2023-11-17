@@ -36,7 +36,7 @@
 
 [En] Thank you for visiting our repository! Here you'll find various detailed templates of C++ code for the Olympics of Informatic(OI), completely **free**. Please ⭐**Star**⭐ our repo and indicate our **link** if you'd like to use our templates.❤️
 
-[Ch] 感谢您访问我们的仓库! 这里有丰富详实的专为信息学竞赛(OI)打造的C++代码模板, 完全**免费**. 如果您想使用我们的模板, 请给这个仓库⭐**Star**⭐并**标明出处**.❤️
+[Ch] 感谢您访问我们的仓库! 这里有丰富详实的专为信息学竞赛 ( OI ) 打造的C++代码模板, 完全**免费**. 如果您想使用我们的模板, 请给这个仓库⭐**Star**⭐并**标明出处**.❤️
 
 欢迎您上传您的代码模板, 我们将在第一时间回复并处理您的<code>Pull Request</code>. 希望您能成为我们的<code>Contributor</code>!
 如果您发现我们的代码模板有纰漏, 欢迎提交<code>Issue</code>, 我们将在第一时间处理.
@@ -98,6 +98,16 @@ int main()
 
 模板存储于<code>Templates</code>文件夹内. 如果不想打开文件夹慢慢查找文件, 你也可以访问下面这个列表中的链接来查看对应文件.
 
+所有模板分为基础 ( <a href="#bsc"><code>Basic</code></a> ) , 图论 ( <a href="#grh"><code>Graph</code></a> ) , 数据结构 ( <a href="#ds"><code>Ds</code></a> ) 和数学 ( <a href="#mth"><code>Math</code></a> ) 四种.
+
+<a name="bsc"></a>
+
+### 📝基础
+
+> 文件夹名称: <a href="https://github.com/kfy666/CppCodeTemplate/tree/main/Templates/Basic">Basic</a>
+> 
+> 包含: 语言基础, 算法基础, 快读
+
 | 项目名称 | 项目源程序链接 |
 |------|------|
 |Hello World| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/HelloWorld.cpp</code> |
@@ -106,13 +116,46 @@ int main()
 |冒泡排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/Bubble-sort.cpp</code> |
 |插入排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/Insertion-sort.cpp</code> |
 |计数排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/Counting-sort.cpp</code> |
+|快读| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/Quick-read.cpp</code> |
+
+<a name="grh"></a>
+
+### 🧩图论
+
+> 文件夹名称: <a href="https://github.com/kfy666/CppCodeTemplate/tree/main/Templates/Graph">Graph</a>
+> 
+> 包含: 图论
+
+| 项目名称 | 项目源程序链接 |
+|------|------|
+|Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Graph/Dijkstra-Leftist-tree.cpp</code> |
+
+<a name="ds"></a>
+
+### 🌳数据结构
+
+> 文件夹名称: <a href="https://github.com/kfy666/CppCodeTemplate/tree/main/Templates/Ds">Ds</a>
+> 
+> 包含: 数据结构
+
+| 项目名称 | 项目源程序链接 |
+|------|------|
 |线段树维护区间和-单点修改-区间查询 | <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Ds/Seg-RangeSum-PointUpdate-RangeQuery.cpp</code> |
 |差分树状数组| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Ds/Fenwick-Adjacent-difference.cpp</code> |
 |二维树状数组| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Ds/Fenwick-Two-dimension.cpp</code> |
 |Splay| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Ds/Splay.cpp</code> |
 |左偏树| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Ds/Leftist-tree.cpp</code> |
-|快读| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/Quick-read.cpp</code> |
-|Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Graph/Dijkstra-Leftist-tree.cpp</code> |
+
+<a name="mth"></a>
+
+### 🎲数学
+
+> 文件夹名称: <a href="https://github.com/kfy666/CppCodeTemplate/tree/main/Templates/Math">Math</a>
+> 
+> 包含: 数论
+
+| 项目名称 | 项目源程序链接 |
+|------|------|
 |中国剩余定理(CRT)| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Math/Chinese-remainder-theorem.cpp</code> |
 |线性筛法筛质数| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Math/Prime-Euler-sieve.cpp</code> |
 
@@ -122,7 +165,7 @@ int main()
 
 点击[这里](https://github.com/kfy666/CppCodeTemplate/graphs/contributors)查看所有贡献者. 如果你在本仓库提交<code>Pull Request</code>并得到通过, 那么你也将成为一名<code>Contributor</code>.
 
-以下列出所有提交了<code>Pull Request</code>的贡献者名单(按首次提交并合并<code>Pull Request</code>的时间顺序排列):
+以下列出所有提交了<code>Pull Request</code>的贡献者名单 ( 按首次提交并合并<code>Pull Request</code>的时间顺序排列 ) :
 
 [kfy666](https://github.com/kfy666), [GTC-Byzantine](https://github.com/GTC-Byzantine), [2044-space-elevator](https://github.com/2044-space-elevator).
 
