@@ -43,18 +43,6 @@
 
 ![progress](https://img.shields.io/badge/更新进度-1%25_(15/1000+)-orange)
 
-梦开始的地方 :)
-
-```cpp
-#include<bits/stdc++.h>
-using namespace std;
-int main()
-{
-    printf("Hello World!\n");
-    return 0;
-}
-```
-
 **注意: 本仓库内所有<code>.cpp</code>文件的头文件均采用万能头<code>bits/stdc++.h</code>, 如果您的编译器不支持此头文件, 请更换为<code>iostream</code>等更通用的头文件. 下面提供了这些用于替代的头文件.**
 
 <details>
