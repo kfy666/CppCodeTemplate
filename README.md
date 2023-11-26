@@ -140,12 +140,13 @@
 
 > 文件夹名称: <a href="https://github.com/kfy666/CppCodeTemplate/tree/main/Templates/Math">Math</a>
 > 
-> 包含: 数论
+> 包含: 数论, 快速幂
 
 | 项目名称 | 项目源程序链接 |
 |------|------|
 |中国剩余定理(CRT)| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Math/Chinese-remainder-theorem.cpp</code> |
 |线性筛法筛质数| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Math/Prime-Euler-sieve.cpp</code> |
+|快速幂| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Math/Binary-exponentiation.cpp</code> |
 
 ---
 
