@@ -158,6 +158,10 @@
 
 [kfy666](https://github.com/kfy666), [GTC-Byzantine](https://github.com/GTC-Byzantine), [2044-space-elevator](https://github.com/2044-space-elevator).
 
+### 如何开始贡献:
+
+![Contribution](https://github.com/kfy666/CppCodeTemplate/assets/101913445/fbdf8446-9a29-48f6-a5e6-823021eff2be)
+
 ---
 
 ## 彩蛋
