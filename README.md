@@ -160,7 +160,8 @@
 
 ### 如何开始贡献:
 
-![Contribution](https://github.com/kfy666/CppCodeTemplate/assets/101913445/fbdf8446-9a29-48f6-a5e6-823021eff2be)
+<img src="https://github.com/kfy666/CppCodeTemplate/assets/101913445/de6fc606-1b52-409b-9ad1-54c706df046e" style="width:75%"/>
+<!--[Contribution](https://github.com/kfy666/CppCodeTemplate/assets/101913445/de6fc606-1b52-409b-9ad1-54c706df046e) -->
 
 ---
 
