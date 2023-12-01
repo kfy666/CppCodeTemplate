@@ -34,9 +34,11 @@
 
 > 想要骗到分，一定有方法。图论背模板，数论背公式，动规背方程，高精背代码，要是都不会，干脆输样例 。
 
-[En] Thank you for visiting our repository! Here you'll find various detailed templates of C++ code for the Olympics of Informatic(OI), completely **free**. Please ⭐**Star**⭐ our repo and indicate our **link** if you'd like to use our templates.❤️
+<!--[En] Thank you for visiting our repository! Here you'll find various detailed templates of C++ code for the Olympics of Informatic(OI), completely **free**. Please ⭐**Star**⭐ our repo and indicate our **link** if you'd like to use our templates.❤️-->
 
-[Ch] 感谢您访问我们的仓库! 这里有丰富详实的专为信息学竞赛 ( OI ) 打造的C++代码模板, 完全**免费**. 如果您想使用我们的模板, 请给这个仓库⭐**Star**⭐并**标明出处**.❤️
+<!--[Ch]-->
+
+感谢您访问我们的仓库! 这里有丰富详实的专为信息学竞赛 ( OI ) 打造的C++代码模板, 完全**免费**. 如果您想使用我们的模板, 请给这个仓库⭐**Star**⭐并**标明出处**.❤️
 
 欢迎您上传您的代码模板, 我们将在第一时间回复并处理您的<code>Pull Request</code>. 希望您能成为我们的<code>Contributor</code>!
 如果您发现我们的代码模板有纰漏, 欢迎提交<code>Issue</code>, 我们将在第一时间处理.
