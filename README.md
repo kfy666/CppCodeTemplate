@@ -162,7 +162,11 @@
 
 ### 如何开始贡献:
 
-<img src="https://github.com/kfy666/CppCodeTemplate/assets/101913445/de6fc606-1b52-409b-9ad1-54c706df046e" style="width:75%"/>
+<img src="https://github.com/kfy666/CppCodeTemplate/assets/101913445/586d7cd9-cfe3-4ef4-8a0d-9b5aab8e9f5f" style="width:75%"/>
+
+<!--![Contribution2](https://github.com/kfy666/CppCodeTemplate/assets/101913445/586d7cd9-cfe3-4ef4-8a0d-9b5aab8e9f5f)-->
+
+<!--<img src="https://github.com/kfy666/CppCodeTemplate/assets/101913445/de6fc606-1b52-409b-9ad1-54c706df046e" style="width:75%"/>-->
 <!--[Contribution](https://github.com/kfy666/CppCodeTemplate/assets/101913445/de6fc606-1b52-409b-9ad1-54c706df046e) -->
 
 ---
