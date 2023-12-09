@@ -43,7 +43,7 @@
 欢迎您上传您的代码模板, 我们将在第一时间回复并处理您的<code>Pull Request</code>. 希望您能成为我们的<code>Contributor</code>!
 如果您发现我们的代码模板有纰漏, 欢迎提交<code>Issue</code>, 我们将在第一时间处理.
 
-![progress](https://img.shields.io/badge/更新进度-1%25_(17/1000+)-orange)
+![progress](https://img.shields.io/badge/更新进度-1%25_(18/1000+)-orange)
 
 **注意: 本仓库内所有<code>.cpp</code>文件的头文件均采用万能头<code>bits/stdc++.h</code>, 如果您的编译器不支持此头文件, 请更换为<code>iostream</code>等更通用的头文件. 下面提供了这些用于替代的头文件.**
 
@@ -118,8 +118,9 @@
 
 | 项目名称 | 项目源程序链接 |
 |------|------|
-|Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Graph/Dijkstra-Leftist-tree.cpp</code> |
+|倍增求最近公共祖先LCA| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Graph/Lca-Binary-Lifting.cpp</code> |
 |Floyd求最短路| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Graph/Floyd.cpp</code> |
+|Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Graph/Dijkstra-Leftist-tree.cpp</code> |
 
 <a name="ds"></a>
 
