@@ -1,4 +1,4 @@
-//Floydæ±‚æœ€çŸ­è·¯
+//FloydÇó×î¶ÌÂ·
 #include<bits/stdc++.h>
 using namespace std;
 const int N = 1e4 + 5;
