@@ -11,8 +11,7 @@
 ![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 -->
-[![Page Views Count](https://badges.toozhao.com/badges/01HDE13JSWPFN1ME6TGB42DV8T/green.svg)](https://badges.toozhao.com/stats/01HDE13JSWPFN1ME6TGB42DV8T "Get your own page views count badge on badges.toozhao.com")
-[![followers](https://img.shields.io/github/followers/kfy666.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/kfy666)
+[![Page Views Count](https://badges.toozhao.com/badges/01HDE13JSWPFN1ME6TGB42DV8T/green.svg)](https://badges.toozhao.com/stats/01HDE13JSWPFN1ME6TGB42DV8T "Get your own page views count badge on badges.toozhao.com")<!--[![followers](https://img.shields.io/github/followers/kfy666.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/kfy666)-->
 [![license](https://img.shields.io/github/license/kfy666/CppCodeTemplate.svg?color=slateblue)](https://github.com/kfy666/CppCodeTemplate)
 ![watchers](https://img.shields.io/github/watchers/kfy666/CppCodeTemplate.svg?style=social&label=Watch)
 ![forks](https://img.shields.io/github/forks/kfy666/CppCodeTemplate.svg?style=social)
@@ -43,7 +42,7 @@
 欢迎您上传您的代码模板, 我们将在第一时间回复并处理您的<code>Pull Request</code>. 希望您能成为我们的<code>Contributor</code>!
 如果您发现我们的代码模板有纰漏, 欢迎提交<code>Issue</code>, 我们将在第一时间处理.
 
-![progress](https://img.shields.io/badge/更新进度-1%25_(17/1000+)-orange)
+![progress](https://img.shields.io/badge/更新进度-1%25_(18/1000+)-orange)
 
 **注意: 本仓库内所有<code>.cpp</code>文件的头文件均采用万能头<code>bits/stdc++.h</code>, 如果您的编译器不支持此头文件, 请更换为<code>iostream</code>等更通用的头文件. 下面提供了这些用于替代的头文件.**
 
@@ -118,8 +117,9 @@
 
 | 项目名称 | 项目源程序链接 |
 |------|------|
-|Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Graph/Dijkstra-Leftist-tree.cpp</code> |
+|倍增求最近公共祖先LCA| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Graph/Lca-Binary-Lifting.cpp</code> |
 |Floyd求最短路| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Graph/Floyd.cpp</code> |
+|Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Graph/Dijkstra-Leftist-tree.cpp</code> |
 
 <a name="ds"></a>
 
