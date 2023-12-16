@@ -42,7 +42,7 @@
 欢迎您上传您的代码模板, 我们将在第一时间回复并处理您的<code>Pull Request</code>. 希望您能成为我们的<code>Contributor</code>!
 如果您发现我们的代码模板有纰漏, 欢迎提交<code>Issue</code>, 我们将在第一时间处理.
 
-![progress](https://img.shields.io/badge/更新进度-1%25_(18/1000+)-orange)
+![progress](https://img.shields.io/badge/更新进度-1%25_(19/1000+)-orange)
 
 **注意: 本仓库内所有<code>.cpp</code>文件的头文件均采用万能头<code>bits/stdc++.h</code>, 如果您的编译器不支持此头文件, 请更换为<code>iostream</code>等更通用的头文件. 下面提供了这些用于替代的头文件.**
 
@@ -105,6 +105,7 @@
 |冒泡排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/Bubble-sort.cpp</code> |
 |插入排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/Insertion-sort.cpp</code> |
 |计数排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/Counting-sort.cpp</code> |
+|桶排序| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/Bucket-sort.cpp</code> |
 |快读| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Basic/Quick-read.cpp</code> |
 
 <a name="grh"></a>
