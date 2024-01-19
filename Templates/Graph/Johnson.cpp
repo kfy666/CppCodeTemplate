@@ -1,25 +1,7 @@
 // Johnson 全源最短路算法
 
 #include <bits/stdc++.h>
-#define rty printf("Yes\n");
-#define RTY printf("YES\n");
-#define rtn printf("No\n");
-#define RTN printf("NO\n");
-#define rep(v,b,e) for(int v=b;v<=e;v++)
-#define repq(v,b,e) for(int v=b;v<e;v++)
-#define rrep(v,e,b) for(int v=b;v>=e;v--)
-#define rrepq(v,e,b) for(int v=b;v>e;v--)
-#define stg string
-#define vct vector
 using namespace std;
-
-typedef long long ll;
-typedef unsigned long long ull;
-#define int ll
-
-void solve() {
-	
-}
 
 const int INF = 1e9;
 const int N = 1e4 + 5, M = 1e4 + 5;
@@ -68,7 +50,7 @@ bool spfa() {
 
 void input() {
 	cin >> n >> m;
-	rep(i, 1, m) {
+	for (int i = 1; i <= m; i++) {
 		int u, v, w;
 		cin >> u >> v >> w;
 		add(u, v, w);
@@ -76,14 +58,14 @@ void input() {
 }
 
 void add_edge() {
-	rep(i, 1, n) {
+	for (int i = 1; i <= n; i++) {
 		add(0, i, 0);
 	}
 	if (!spfa()) {
-		cout << "-1\n";
+		cout << "-1\n"; //有负环无解
 		exit(0);
 	}
-	rep(u, 1, n) {
+	for (int u = 1; u <= n; u++) {
 		for (int i = head[u]; i; i = E[i].next) {
 			E[i].w += hdis[u] - hdis[E[i].v];
 		}
@@ -91,7 +73,7 @@ void add_edge() {
 }
 
 void dijkstra(int s) {
-	rep(i, 1, n) {
+	for (int i = 1; i <= n; i++) {
 		dis[i] = INF;
 	}	
 	q.push({0, s});
@@ -119,17 +101,10 @@ main() {
 //	int t; cin >> t; while (t--) solve();
 	input();
 	add_edge();
-	rep(i, 1, n) {
+	for (int i = 1; i <= n; i++) {
 		dijkstra(i);
-		int ans = 0;
-		rep(j, 1, n) {
-			if (dis[j] == INF) {
-				ans += j * INF;
-			} else {
-				ans += j * (dis[j] + hdis[j] - hdis[i]);
-			}
-		}
-		cout << ans << endl;
+		// 每一轮都是以i为起点的最短路。
 	}
+	// 复杂度 O(nm log m)
 	return 0;
 }
