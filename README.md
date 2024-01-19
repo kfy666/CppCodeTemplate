@@ -121,6 +121,7 @@
 |倍增求最近公共祖先LCA| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Graph/Lca-Binary-Lifting.cpp</code> |
 |Floyd求最短路| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Graph/Floyd.cpp</code> |
 |Dijkstra求最短路-左偏树维护| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Graph/Dijkstra-Leftist-tree.cpp</code> |
+|Johnson 全源最短路算法| <code>https://github.com/kfy666/CppCodeTemplate/blob/main/Templates/Graph/Johnson.cpp</code> |
 
 <a name="ds"></a>
 
